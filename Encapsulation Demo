@@ -1,0 +1,15 @@
+package tcs;
+
+public class EncapsulationDemo {
+	public static void main(String args[]) {
+		
+		//object creation
+		OopsConceptDe obj = new OopsConceptDe();
+		obj.setName(101);
+		obj.setSeriesNum("pooja");
+		obj.setAge(20);
+		System.out.println(obj);
+	}
+	
+
+}
