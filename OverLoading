@@ -1,0 +1,16 @@
+package tcs;
+
+public class Overloading {
+       
+	public void s1(int a, String b) {
+		System.out.println("Overloading method");
+	}
+	public void s1 (String e, int g) {
+		System.out.println("method overloading");
+	}
+	public static void main(String[] args) {
+		Overloading h=new Overloading();
+		h.s1(12,"swa");
+		h.s1("saw",12);
+	}
+}
